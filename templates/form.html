@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الحضور</title>
+</head>
+<body>
+    <h1>تسجيل الحضور</h1>
+    <form action="/submit" method="POST">
+        <label for="code">الكود:</label>
+        <input type="text" id="code" name="code" required><br><br>
+
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="subject">المادة:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <button type="submit">إرسال</button>
+    </form>
+</body>
+</html>
